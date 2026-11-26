@@ -1,0 +1,1070 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>体操服喷浆 - 专业定制,艺术工艺 | 体艺服饰创意工作室</title>
+<meta name="description" content="体操服喷浆，专注体操服艺术化表面工艺与定制喷浆设计，为竞技体操、艺术体操与舞蹈团体提供高定服饰质感方案，体艺创想工作室以匠心喷浆工艺点亮每一件体操服。">
+<style>
+:root{
+  --ink:#12131a;
+  --ink-soft:#2b2d3a;
+  --muted:#6b6f80;
+  --line:#e4e6ef;
+  --bg:#f7f8fc;
+  --card:#ffffff;
+  --brand:#5b4bff;
+  --brand-2:#ff5c8a;
+  --brand-3:#19c1a8;
+  --gold:#f4b63f;
+  --radius:20px;
+  --shadow:0 18px 50px rgba(24,26,45,.09);
+  --shadow-sm:0 8px 24px rgba(24,26,45,.07);
+  --maxw:1200px;
+  --font:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font);
+  background:var(--bg);
+  color:var(--ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+img,svg{display:block;max-width:100%}
+ul{list-style:none}
+.container{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.section{padding:96px 0}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:13px;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--brand);font-weight:700;
+}
+.eyebrow::before{content:"";width:26px;height:2px;background:var(--brand);border-radius:2px}
+h2.section-title{
+  font-size:clamp(26px,3.4vw,42px);
+  line-height:1.25;letter-spacing:-.02em;margin:14px 0 18px;font-weight:800;
+}
+.section-desc{color:var(--muted);max-width:640px;font-size:16px}
+.center{text-align:center}
+.center .section-desc{margin:0 auto}
+.center .eyebrow::before{display:none}
+
+/* ============ NAV ============ */
+header.site-head{
+  position:sticky;top:0;z-index:60;
+  backdrop-filter:blur(16px);
+  background:rgba(247,248,252,.82);
+  border-bottom:1px solid rgba(228,230,239,.8);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.logo{display:flex;align-items:center;gap:12px;font-weight:800;font-size:19px;letter-spacing:-.01em}
+.logo-mark{
+  width:40px;height:40px;border-radius:12px;
+  background:linear-gradient(135deg,var(--brand),var(--brand-2));
+  display:grid;place-items:center;color:#fff;font-size:18px;font-weight:800;
+  box-shadow:0 8px 20px rgba(91,75,255,.32);
+}
+.logo small{display:block;font-size:11px;letter-spacing:.22em;color:var(--muted);font-weight:600}
+.nav-links{display:flex;align-items:center;gap:34px;font-size:15px;color:var(--ink-soft);font-weight:600}
+.nav-links a{position:relative;padding:6px 0;transition:color .25s}
+.nav-links a::after{
+  content:"";position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--brand);
+  transition:width .3s;border-radius:2px;
+}
+.nav-links a:hover{color:var(--brand)}
+.nav-links a:hover::after{width:100%}
+.nav-cta{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:11px 22px;border-radius:999px;font-size:14.5px;font-weight:700;color:#fff;
+  background:linear-gradient(135deg,var(--brand),#8a6bff);
+  box-shadow:0 10px 26px rgba(91,75,255,.3);
+  transition:transform .25s,box-shadow .25s;
+}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 16px 34px rgba(91,75,255,.38)}
+.menu-btn{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:5px;padding:8px}
+.menu-btn span{width:24px;height:2px;background:var(--ink);border-radius:2px;transition:.3s}
+
+/* ============ HERO ============ */
+.hero{position:relative;padding:78px 0 40px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.hero-badge{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:8px 16px;border-radius:999px;background:#fff;border:1px solid var(--line);
+  font-size:13px;font-weight:700;color:var(--ink-soft);box-shadow:var(--shadow-sm);
+}
+.hero-badge .dot{width:8px;height:8px;border-radius:50%;background:var(--brand-3);box-shadow:0 0 0 4px rgba(25,193,168,.16)}
+h1{
+  font-size:clamp(40px,6vw,74px);
+  line-height:1.06;letter-spacing:-.035em;font-weight:900;
+  margin:26px 0 22px;
+  background:linear-gradient(115deg,#12131a 20%,#3a2bd6 58%,#ff5c8a 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero p.lead{font-size:17.5px;color:var(--ink-soft);max-width:540px;margin-bottom:34px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:16px;align-items:center}
+.btn-primary{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:15px 30px;border-radius:999px;font-weight:700;font-size:15.5px;color:#fff;
+  background:linear-gradient(135deg,var(--brand),#8a6bff);
+  box-shadow:0 16px 38px rgba(91,75,255,.32);
+  transition:transform .28s,box-shadow .28s;
+}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 22px 46px rgba(91,75,255,.4)}
+.btn-ghost{
+  display:inline-flex;align-items:center;gap:10px;
+  padding:14px 28px;border-radius:999px;font-weight:700;font-size:15.5px;
+  border:1.5px solid var(--line);background:#fff;color:var(--ink);
+  transition:border-color .25s,transform .25s,box-shadow .25s;
+}
+.btn-ghost:hover{border-color:var(--brand);color:var(--brand);transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+.hero-stats{display:flex;gap:44px;margin-top:46px;flex-wrap:wrap}
+.stat b{display:block;font-size:30px;font-weight:900;letter-spacing:-.02em;line-height:1.1}
+.stat span{font-size:13px;color:var(--muted);font-weight:600}
+.hero-visual{position:relative}
+.visual-card{
+  position:relative;border-radius:28px;overflow:hidden;background:#fff;
+  box-shadow:var(--shadow);border:1px solid rgba(228,230,239,.7);
+}
+.visual-card svg{width:100%;height:auto}
+.float-tag{
+  position:absolute;padding:12px 18px;border-radius:16px;background:#fff;
+  box-shadow:var(--shadow);font-size:13px;font-weight:700;display:flex;align-items:center;gap:10px;
+  border:1px solid rgba(228,230,239,.8);
+}
+.float-tag i{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;font-style:normal;font-size:15px;color:#fff}
+.tag-a{top:6%;left:-22px;animation:floaty 6s ease-in-out infinite}
+.tag-a i{background:linear-gradient(135deg,var(--brand),#8a6bff)}
+.tag-b{bottom:12%;right:-18px;animation:floaty 7s ease-in-out infinite .8s}
+.tag-b i{background:linear-gradient(135deg,var(--brand-2),#ff8f6b)}
+.tag-c{bottom:-16px;left:12%;animation:floaty 6.5s ease-in-out infinite 1.4s}
+.tag-c i{background:linear-gradient(135deg,var(--brand-3),#4fe0a8)}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+.hero-deco{
+  position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;pointer-events:none;z-index:-1;
+}
+.deco-1{width:420px;height:420px;background:rgba(91,75,255,.28);top:-120px;right:-80px}
+.deco-2{width:320px;height:320px;background:rgba(255,92,138,.22);bottom:-100px;left:-100px}
+
+/* ============ MARQUEE ============ */
+.marquee-wrap{
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  background:#fff;padding:20px 0;overflow:hidden;position:relative;
+}
+.marquee{display:flex;gap:60px;white-space:nowrap;animation:scrollx 32s linear infinite;width:max-content}
+.marquee span{font-size:14px;font-weight:700;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:60px}
+.marquee span::after{content:"✦";color:var(--brand);font-size:12px}
+@keyframes scrollx{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* ============ ABOUT ============ */
+.about{background:#fff}
+.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+.about-media{position:relative}
+.about-media .frame{
+  border-radius:26px;overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);
+}
+.about-media .frame svg{width:100%;height:auto}
+.about-media .badge-card{
+  position:absolute;bottom:-26px;right:-18px;background:#fff;border-radius:18px;
+  padding:18px 22px;box-shadow:var(--shadow);border:1px solid var(--line);display:flex;gap:14px;align-items:center;
+}
+.about-media .badge-card .num{font-size:30px;font-weight:900;background:linear-gradient(135deg,var(--brand),var(--brand-2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.about-media .badge-card p{font-size:12.5px;color:var(--muted);font-weight:600;line-height:1.4}
+.about-text p{color:var(--ink-soft);margin-bottom:18px}
+.about-list{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+.about-list li{display:flex;gap:12px;align-items:flex-start;font-size:14.5px;color:var(--ink-soft);font-weight:600}
+.tick{
+  flex:none;width:24px;height:24px;border-radius:8px;display:grid;place-items:center;
+  background:rgba(91,75,255,.1);color:var(--brand);font-size:13px;font-weight:900;margin-top:2px;
+}
+
+/* ============ SERVICES ============ */
+.services{background:linear-gradient(180deg,var(--bg),#fff)}
+.services-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap;margin-bottom:46px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:34px 28px;transition:transform .3s,box-shadow .3s,border-color .3s;position:relative;overflow:hidden;
+}
+.card::before{
+  content:"";position:absolute;inset:0;background:linear-gradient(160deg,rgba(91,75,255,.05),transparent 55%);
+  opacity:0;transition:opacity .3s;pointer-events:none;
+}
+.card:hover{transform:translateY(-8px);box-shadow:var(--shadow);border-color:rgba(91,75,255,.3)}
+.card:hover::before{opacity:1}
+.card-icon{
+  width:56px;height:56px;border-radius:16px;display:grid;place-items:center;margin-bottom:22px;
+  background:linear-gradient(135deg,rgba(91,75,255,.12),rgba(255,92,138,.1));color:var(--brand);
+  border:1px solid rgba(91,75,255,.16);
+}
+.card-icon svg{width:27px;height:27px}
+.card h3{font-size:19px;margin-bottom:10px;font-weight:800;letter-spacing:-.01em}
+.card p{font-size:14.5px;color:var(--muted);line-height:1.7}
+.card .tagline{
+  margin-top:20px;display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:700;color:var(--brand);
+}
+.card .tagline svg{width:15px;height:15px;transition:transform .3s}
+.card:hover .tagline svg{transform:translateX(4px)}
+
+/* ============ PROCESS ============ */
+.process{background:#fff}
+.process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:50px;counter-reset:step}
+.step{
+  position:relative;padding:30px 24px;border-radius:var(--radius);background:var(--bg);
+  border:1px solid var(--line);transition:transform .3s,box-shadow .3s;
+}
+.step:hover{transform:translateY(-6px);box-shadow:var(--shadow-sm)}
+.step .no{
+  font-size:13px;font-weight:900;letter-spacing:.16em;color:var(--brand);
+  display:flex;align-items:center;gap:10px;margin-bottom:16px;
+}
+.step .no::after{content:"";height:1px;flex:1;background:var(--line)}
+.step h4{font-size:17px;margin-bottom:8px;font-weight:800}
+.step p{font-size:14px;color:var(--muted);line-height:1.7}
+
+/* ============ GALLERY ============ */
+.gallery{background:linear-gradient(180deg,#fff,var(--bg))}
+.gallery-grid{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:190px;gap:20px;margin-top:48px}
+.g-item{
+  border-radius:var(--radius);overflow:hidden;position:relative;background:#fff;
+  border:1px solid var(--line);box-shadow:var(--shadow-sm);
+  transition:transform .35s,box-shadow .35s;
+}
+.g-item:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+.g-item svg{width:100%;height:100%;object-fit:cover}
+.g-item .cap{
+  position:absolute;left:18px;bottom:16px;color:#fff;font-size:14px;font-weight:700;
+  text-shadow:0 2px 10px rgba(0,0,0,.35);z-index:2;
+}
+.g-item::after{
+  content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(12,14,26,.55));
+  opacity:.7;transition:opacity .3s;
+}
+.g-item:hover::after{opacity:.9}
+.g-a{grid-column:span 3;grid-row:span 2}
+.g-b{grid-column:span 3;grid-row:span 1}
+.g-c{grid-column:span 3;grid-row:span 1}
+.g-d{grid-column:span 2;grid-row:span 1}
+.g-e{grid-column:span 2;grid-row:span 1}
+.g-f{grid-column:span 2;grid-row:span 1}
+
+/* ============ ADVANTAGES ============ */
+.advantages{background:#fff}
+.adv-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px;margin-top:48px}
+.adv{
+  display:flex;gap:20px;padding:30px;border-radius:var(--radius);background:var(--bg);
+  border:1px solid var(--line);transition:transform .3s,box-shadow .3s;
+}
+.adv:hover{transform:translateY(-5px);box-shadow:var(--shadow-sm)}
+.adv .ico{
+  flex:none;width:52px;height:52px;border-radius:15px;display:grid;place-items:center;
+  background:linear-gradient(135deg,var(--brand),#8a6bff);color:#fff;box-shadow:0 10px 24px rgba(91,75,255,.28);
+}
+.adv .ico svg{width:24px;height:24px}
+.adv h4{font-size:17.5px;margin-bottom:6px;font-weight:800}
+.adv p{font-size:14.5px;color:var(--muted);line-height:1.7}
+
+/* ============ TESTIMONIALS ============ */
+.testimonials{background:linear-gradient(160deg,#12131a,#1d1f34 55%,#241a3a);color:#fff;position:relative;overflow:hidden}
+.testimonials .eyebrow{color:#9d92ff}
+.testimonials .eyebrow::before{background:#9d92ff}
+.testimonials .section-desc{color:rgba(255,255,255,.62)}
+.testimonials .section-title{color:#fff}
+.t-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px}
+.t-card{
+  background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);
+  border-radius:var(--radius);padding:32px 28px;transition:transform .3s,background .3s,border-color .3s;
+}
+.t-card:hover{transform:translateY(-6px);background:rgba(255,255,255,.08);border-color:rgba(157,146,255,.4)}
+.t-stars{color:var(--gold);letter-spacing:3px;margin-bottom:16px;font-size:14px}
+.t-card blockquote{font-size:15px;line-height:1.85;color:rgba(255,255,255,.82);margin-bottom:24px}
+.t-user{display:flex;align-items:center;gap:14px}
+.t-ava{
+  width:44px;height:44px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:15px;color:#fff;
+  background:linear-gradient(135deg,var(--brand),var(--brand-2));
+}
+.t-user b{display:block;font-size:14.5px}
+.t-user span{font-size:12.5px;color:rgba(255,255,255,.5)}
+
+/* ============ FAQ ============ */
+.faq{background:#fff}
+.faq-wrap{max-width:860px;margin:48px auto 0}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-q{
+  width:100%;text-align:left;background:none;border:none;cursor:pointer;
+  padding:24px 0;display:flex;justify-content:space-between;align-items:center;gap:20px;
+  font-size:16.5px;font-weight:700;color:var(--ink);font-family:var(--font);transition:color .25s;
+}
+.faq-q:hover{color:var(--brand)}
+.faq-q .plus{
+  flex:none;width:30px;height:30px;border-radius:50%;border:1.5px solid var(--line);
+  display:grid;place-items:center;position:relative;transition:.3s;
+}
+.faq-q .plus::before,.faq-q .plus::after{
+  content:"";position:absolute;background:currentColor;border-radius:2px;transition:.3s;
+}
+.faq-q .plus::before{width:12px;height:2px}
+.faq-q .plus::after{width:2px;height:12px}
+.faq-item.open .faq-q .plus{background:var(--brand);border-color:var(--brand);color:#fff;transform:rotate(90deg)}
+.faq-item.open .faq-q .plus::after{opacity:0}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-a p{padding:0 0 24px;color:var(--muted);font-size:15px;line-height:1.85;padding-right:50px}
+
+/* ============ CTA ============ */
+.cta-sec{padding:0 0 96px}
+.cta-box{
+  position:relative;overflow:hidden;border-radius:32px;padding:72px 56px;text-align:center;
+  background:linear-gradient(130deg,#5b4bff,#8a6bff 45%,#ff5c8a);
+  box-shadow:0 30px 70px rgba(91,75,255,.32);
+}
+.cta-box::before{
+  content:"";position:absolute;width:420px;height:420px;border-radius:50%;
+  background:rgba(255,255,255,.13);top:-200px;right:-120px;
+}
+.cta-box::after{
+  content:"";position:absolute;width:280px;height:280px;border-radius:50%;
+  background:rgba(255,255,255,.1);bottom:-160px;left:-80px;
+}
+.cta-box h2{position:relative;color:#fff;font-size:clamp(26px,3.6vw,42px);line-height:1.25;letter-spacing:-.02em;margin-bottom:16px;font-weight:900}
+.cta-box p{position:relative;color:rgba(255,255,255,.86);max-width:560px;margin:0 auto 34px;font-size:16px}
+.cta-form{position:relative;display:flex;gap:12px;max-width:560px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+.cta-form input{
+  flex:1;min-width:220px;padding:15px 22px;border-radius:999px;border:none;font-size:15px;
+  font-family:var(--font);outline:none;background:rgba(255,255,255,.94);color:var(--ink);
+}
+.cta-form input::placeholder{color:#9aa0b0}
+.cta-form button{
+  padding:15px 32px;border-radius:999px;border:none;cursor:pointer;font-size:15px;font-weight:800;
+  font-family:var(--font);background:#12131a;color:#fff;transition:transform .25s,background .25s;
+}
+.cta-form button:hover{transform:translateY(-2px);background:#000}
+.cta-note{position:relative;margin-top:20px;font-size:12.5px;color:rgba(255,255,255,.7)}
+
+/* ============ CONTACT / FOOTER ============ */
+footer.site-foot{background:#0f1018;color:rgba(255,255,255,.66);padding:72px 0 34px}
+.foot-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:44px}
+.foot-brand .logo{color:#fff;margin-bottom:18px}
+.foot-brand .logo small{color:rgba(255,255,255,.45)}
+.foot-brand p{font-size:14px;line-height:1.85;color:rgba(255,255,255,.55);max-width:300px}
+.foot-social{display:flex;gap:12px;margin-top:22px}
+.foot-social a{
+  width:38px;height:38px;border-radius:11px;display:grid;place-items:center;
+  background:rgba(255,255,255,.07);color:rgba(255,255,255,.75);transition:.25s;
+}
+.foot-social a:hover{background:var(--brand);color:#fff;transform:translateY(-3px)}
+.foot-social svg{width:17px;height:17px}
+.foot-col h5{color:#fff;font-size:14.5px;margin-bottom:20px;font-weight:800;letter-spacing:.02em}
+.foot-col li{margin-bottom:12px;font-size:14px}
+.foot-col a{transition:color .25s}
+.foot-col a:hover{color:#fff}
+.foot-contact li{display:flex;gap:10px;font-size:14px;line-height:1.6;margin-bottom:14px;align-items:flex-start}
+.foot-contact svg{width:16px;height:16px;flex:none;margin-top:4px;color:var(--brand-2)}
+.foot-bottom{
+  margin-top:56px;padding-top:26px;border-top:1px solid rgba(255,255,255,.08);
+  display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:13px;color:rgba(255,255,255,.42);
+}
+.foot-bottom a:hover{color:#fff}
+
+/* ============ REVEAL ============ */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s cubic-bezier(.2,.7,.3,1),transform .7s cubic-bezier(.2,.7,.3,1)}
+.reveal.in{opacity:1;transform:none}
+
+/* ============ RESPONSIVE ============ */
+@media(max-width:1024px){
+  .hero-grid,.about-grid{grid-template-columns:1fr;gap:44px}
+  .cards{grid-template-columns:1fr 1fr}
+  .process-steps{grid-template-columns:1fr 1fr}
+  .t-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .adv-grid{grid-template-columns:1fr}
+}
+@media(max-width:760px){
+  .nav-links,.nav-cta{display:none}
+  .menu-btn{display:flex}
+  .nav.open .nav-links{
+    display:flex;position:absolute;top:76px;left:0;right:0;flex-direction:column;
+    background:#fff;padding:20px 24px;gap:18px;border-bottom:1px solid var(--line);
+    box-shadow:var(--shadow);
+  }
+  .section{padding:68px 0}
+  .hero{padding:48px 0 24px}
+  .hero-stats{gap:28px}
+  .cards{grid-template-columns:1fr}
+  .about-list{grid-template-columns:1fr}
+  .gallery-grid{grid-template-columns:1fr;grid-auto-rows:200px}
+  .g-a,.g-b,.g-c,.g-d,.g-e,.g-f{grid-column:span 1;grid-row:span 1}
+  .process-steps{grid-template-columns:1fr}
+  .cta-box{padding:52px 24px;border-radius:24px}
+  .foot-grid{grid-template-columns:1fr}
+  .float-tag{display:none}
+  .about-media .badge-card{position:static;margin-top:18px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="container nav" id="nav">
+    <a href="#" class="logo">
+      <span class="logo-mark">体</span>
+      <span>体艺创想<small>SPRAY · COSTUME</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#about">关于品牌</a>
+      <a href="#services">工艺服务</a>
+      <a href="#process">定制流程</a>
+      <a href="#gallery">作品画廊</a>
+      <a href="#faq">常见问答</a>
+    </nav>
+    <a href="#contact" class="nav-cta">预约喷浆方案</a>
+    <button class="menu-btn" id="menuBtn" aria-label="展开菜单"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-deco deco-1"></div>
+    <div class="hero-deco deco-2"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="hero-badge"><span class="dot"></span>专注体操服艺术化表面工艺 · 高定定制</span>
+        <h1>体操服喷浆</h1>
+        <p class="lead">让每一次腾空与旋转都被看见。我们用可穿戴的艺术喷浆工艺，为竞技体操、艺术体操与舞蹈团体打造有质感、有辨识度、经得起灯光与镜头考验的体操服。</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">获取定制方案
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#gallery" class="btn-ghost">浏览作品
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><b>320<span style="font-size:18px">+</span></b><span>团体定制交付</span></div>
+          <div class="stat"><b>48</b><span>喷浆工艺配方</span></div>
+          <div class="stat"><b>98<span style="font-size:18px">%</span></b><span>客户复购与转介绍</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-card">
+          <svg viewBox="0 0 560 560" role="img" aria-label="体操服喷浆工艺示意插画">
+            <defs>
+              <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#eef0ff"/>
+                <stop offset="1" stop-color="#ffeef5"/>
+              </linearGradient>
+              <linearGradient id="suitGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#5b4bff"/>
+                <stop offset=".55" stop-color="#8a6bff"/>
+                <stop offset="1" stop-color="#ff5c8a"/>
+              </linearGradient>
+              <linearGradient id="sprayGrad" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#19c1a8" stop-opacity=".9"/>
+                <stop offset="1" stop-color="#5b4bff" stop-opacity=".2"/>
+              </linearGradient>
+              <radialGradient id="glowGrad" cx=".5" cy=".5" r=".5">
+                <stop offset="0" stop-color="#ffffff" stop-opacity=".9"/>
+                <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="560" height="560" fill="url(#bgGrad)"/>
+            <circle cx="280" cy="250" r="180" fill="url(#glowGrad)"/>
+            <circle cx="440" cy="110" r="70" fill="#ff5c8a" opacity=".14"/>
+            <circle cx="100" cy="430" r="90" fill="#5b4bff" opacity=".12"/>
+            <!-- suit silhouette -->
+            <path d="M280 96c-26 0-46 20-46 46 0 14 6 26 16 34l-40 22-58 34c-14 8-20 26-12 40l30 52c8 14 26 18 40 10l30-18v152c0 16 12 28 28 28h24c16 0 28-12 28-28V386l30 18c14 8 32 4 40-10l30-52c8-14 2-32-12-40l-58-34-40-22c10-8 16-20 16-34 0-26-20-46-46-46z" fill="url(#suitGrad)"/>
+            <!-- spray texture strokes -->
+            <g stroke="url(#sprayGrad)" stroke-width="5" stroke-linecap="round" fill="none" opacity=".85">
+              <path d="M230 250c30-18 70-18 100 0"/>
+              <path d="M220 282c40-20 90-20 130 0"/>
+              <path d="M214 314c46-20 100-20 146 0"/>
+              <path d="M222 346c40-16 90-16 130 0"/>
+              <path d="M232 378c30-12 70-12 100 0"/>
+            </g>
+            <!-- mist particles -->
+            <g fill="#ffffff" opacity=".75">
+              <circle cx="176" cy="196" r="5"/>
+              <circle cx="386" cy="182" r="4"/>
+              <circle cx="402" cy="250" r="6"/>
+              <circle cx="160" cy="286" r="4"/>
+              <circle cx="200" cy="150" r="3"/>
+              <circle cx="360" cy="132" r="3"/>
+              <circle cx="418" cy="330" r="5"/>
+              <circle cx="150" cy="360" r="3"/>
+            </g>
+            <!-- sparkles -->
+            <g fill="#f4b63f">
+              <path d="M452 210l6 16 16 6-16 6-6 16-6-16-16-6 16-6z" opacity=".9"/>
+              <path d="M120 170l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" opacity=".8"/>
+            </g>
+            <!-- ribbon -->
+            <path d="M60 470c50-30 90-30 140-6s90 26 140-4 100-24 150 6" stroke="#ff5c8a" stroke-width="4" stroke-linecap="round" fill="none" opacity=".45"/>
+          </svg>
+        </div>
+        <div class="float-tag tag-a"><i>✦</i>高定喷浆质感</div>
+        <div class="float-tag tag-b"><i>◈</i>竞赛级弹力面料</div>
+        <div class="float-tag tag-c"><i>✽</i>团体量体交付</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap" aria-hidden="true">
+    <div class="marquee">
+      <span>体操服喷浆</span><span>竞技体操</span><span>艺术体操</span><span>舞蹈团体</span><span>高定工艺</span><span>表面质感</span><span>量体定制</span><span>体艺共创</span>
+      <span>体操服喷浆</span><span>竞技体操</span><span>艺术体操</span><span>舞蹈团体</span><span>高定工艺</span><span>表面质感</span><span>量体定制</span><span>体艺共创</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-media reveal">
+        <div class="frame">
+          <svg viewBox="0 0 520 520" role="img" aria-label="喷浆工艺工作室场景插画">
+            <defs>
+              <linearGradient id="m1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f0f1ff"/>
+                <stop offset="1" stop-color="#ffe9f2"/>
+              </linearGradient>
+              <linearGradient id="m2" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#5b4bff"/>
+                <stop offset="1" stop-color="#ff5c8a"/>
+              </linearGradient>
+            </defs>
+            <rect width="520" height="520" fill="url(#m1)"/>
+            <!-- table -->
+            <rect x="70" y="320" width="380" height="18" rx="9" fill="#12131a" opacity=".82"/>
+            <rect x="110" y="338" width="14" height="110" rx="7" fill="#12131a" opacity=".6"/>
+            <rect x="396" y="338" width="14" height="110" rx="7" fill="#12131a" opacity=".6"/>
+            <!-- fabric on table -->
+            <path d="M120 300c30-16 70-18 100-6s60 14 92 0 60-14 88 4v22H120z" fill="url(#m2)" opacity=".92"/>
+            <!-- spray gun -->
+            <g>
+              <rect x="300" y="150" width="120" height="40" rx="20" fill="#2b2d3a"/>
+              <rect x="392" y="160" width="46" height="20" rx="10" fill="#4a4d63"/>
+              <rect x="316" y="196" width="26" height="46" rx="10" fill="#2b2d3a"/>
+              <circle cx="330" cy="170" r="10" fill="#19c1a8"/>
+              <path d="M386 196l-60 50-60 46" stroke="#19c1a8" stroke-width="6" stroke-linecap="round" fill="none" opacity=".55"/>
+            </g>
+            <!-- mist dots -->
+            <g fill="#5b4bff" opacity=".65">
+              <circle cx="270" cy="288" r="6"/>
+              <circle cx="246" cy="272" r="4"/>
+              <circle cx="292" cy="268" r="4"/>
+              <circle cx="230" cy="250" r="3"/>
+              <circle cx="310" cy="252" r="3"/>
+              <circle cx="260" cy="236" r="2.5"/>
+            </g>
+            <!-- color swatches -->
+            <g>
+              <circle cx="120" cy="120" r="28" fill="#5b4bff"/>
+              <circle cx="180" cy="100" r="18" fill="#ff5c8a"/>
+              <circle cx="150" cy="172" r="12" fill="#19c1a8"/>
+              <circle cx="210" cy="150" r="8" fill="#f4b63f"/>
+            </g>
+            <!-- frame corner -->
+            <path d="M420 400h40v40" stroke="#12131a" stroke-width="4" fill="none" opacity=".4"/>
+            <path d="M100 80v40M80 100h40" stroke="#12131a" stroke-width="3" opacity=".3"/>
+          </svg>
+        </div>
+        <div class="badge-card">
+          <span class="num">12</span>
+          <p>年深耕服饰<br>表面工艺研发</p>
+        </div>
+      </div>
+      <div class="about-text reveal">
+        <span class="eyebrow">关于体艺创想</span>
+        <h2 class="section-title">把喷浆做成体操服的第二层肌肤</h2>
+        <p>体操服喷浆，是体艺创想建立差异化工艺体系的核心方向。我们围绕“表面质感 + 运动功能”双目标，长期研究可延展、透气、耐摩擦的喷浆配方，让花纹、光泽与肌理在完成空翻、转体、劈叉等高难动作时依然稳定不裂。</p>
+        <p>工作室服务竞技体操、艺术体操、健美操与校园舞蹈团体，从面料选型、量体打版到喷浆打样与批量生产形成闭环。我们相信，优秀的体操服既要服务于动作，也要替运动员表达自己。</p>
+        <ul class="about-list">
+          <li><span class="tick">✓</span>可延展喷浆配方，跟随动作不龟裂</li>
+          <li><span class="tick">✓</span>肤感透气结构，久穿不闷不刺</li>
+          <li><span class="tick">✓</span>竞技级弹力面料，四面回弹稳定</li>
+          <li><span class="tick">✓</span>个性化图案，批量交付周期可控</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="services-head">
+        <div class="reveal">
+          <span class="eyebrow">工艺服务</span>
+          <h2 class="section-title">四条喷浆工艺线，覆盖不同训练与赛场需求</h2>
+          <p class="section-desc">从主赛服到训练款，从个人高定到整队统一，每一件体操服都经过配色打样与喷浆测试后再进入生产。</p>
+        </div>
+        <a href="#contact" class="btn-ghost reveal">咨询工艺细节
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="cards">
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8 5.8 21.3l2.4-7.4L2 9.4h7.6z"/></svg>
+          </div>
+          <h3>竞技赛服喷浆</h3>
+          <p>面向比赛与评分场景，强调色彩层次与舞台辨识度。喷浆层厚度经过反复测试，兼顾镜头表现与动作自由度。</p>
+          <span class="tagline">看样定制 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9"/><path d="M3 4v8h8"/></svg>
+          </div>
+          <h3>训练服耐磨喷浆</h3>
+          <p>日常高频训练更看重耐洗与耐磨。我们采用哑光喷浆方案，减少摩擦掉色，让训练服在反复穿着后依然整洁。</p>
+          <span class="tagline">耐磨测试 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>
+          </div>
+          <h3>艺术体操渐变喷浆</h3>
+          <p>为艺术体操与舞蹈编排设计渐变、雾面与星点效果，喷浆过渡自然，旋转时呈现连续的光影流动感。</p>
+          <span class="tagline">渐变打样 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>团体统一配色</h3>
+          <p>学校、俱乐部与院团的整队定制，统一喷浆色号与版型标准，支持分尺码量体与分批交付，保证同批次一致性。</p>
+          <span class="tagline">批量交付 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-6M6 20v-4M18 20v-8"/><path d="M3 20h18"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <h3>个人高定喷浆</h3>
+          <p>为个人运动员设计专属图案与签名式质感，从草图到成衣多轮沟通，把个人故事转译成可穿戴的喷浆语言。</p>
+          <span class="tagline">一对一设计 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg>
+          </div>
+          <h3>工艺打样与顾问</h3>
+          <p>提供面料 + 喷浆的小样测试，输出工艺参数建议书，帮助团队在开赛前完成配色确认与风险排查。</p>
+          <span class="tagline">参数建议 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section process" id="process">
+    <div class="container">
+      <div class="center reveal">
+        <span class="eyebrow">定制流程</span>
+        <h2 class="section-title">从一次沟通，到一件可上场的体操服喷浆</h2>
+        <p class="section-desc">四步推进，节点清晰。每个阶段都有明确的交付物与确认点，避免反复与延误。</p>
+      </div>
+      <div class="process-steps">
+        <div class="step reveal">
+          <div class="no">STEP 01</div>
+          <h4>需求沟通</h4>
+          <p>了解项目类型、使用场景、数量与预算，明确配色方向与喷浆风格偏好。</p>
+        </div>
+        <div class="step reveal">
+          <div class="no">STEP 02</div>
+          <h4>打样测试</h4>
+          <p>制作面料与喷浆小样，进行延展、耐洗与色牢度测试，确认可落地方案。</p>
+        </div>
+        <div class="step reveal">
+          <div class="no">STEP 03</div>
+          <h4>量体制版</h4>
+          <p>按团体或个人尺寸制版，确认版型舒适度与活动余量后进入生产排期。</p>
+        </div>
+        <div class="step reveal">
+          <div class="no">STEP 04</div>
+          <h4>交付与复盘</h4>
+          <p>分拣包装交付，提供保养建议，并收集穿着反馈用于后续工艺迭代。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="center reveal">
+        <span class="eyebrow">作品画廊</span>
+        <h2 class="section-title">被灯光照亮的喷浆细节</h2>
+        <p class="section-desc">以下为不同项目的工艺方向示意，实际成衣以打样确认为准。</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="g-item g-a reveal">
+          <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="星云渐变喷浆示意">
+            <defs>
+              <linearGradient id="ga" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#4b3cff"/>
+                <stop offset=".5" stop-color="#8a6bff"/>
+                <stop offset="1" stop-color="#ff5c8a"/>
+              </linearGradient>
+              <radialGradient id="ga2" cx=".3" cy=".3" r=".7">
+                <stop offset="0" stop-color="#ffffff" stop-opacity=".6"/>
+                <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="600" height="400" fill="url(#ga)"/>
+            <ellipse cx="180" cy="120" rx="150" ry="110" fill="url(#ga2)"/>
+            <g fill="#fff" opacity=".7">
+              <circle cx="120" cy="80" r="3"/><circle cx="260" cy="60" r="2"/><circle cx="400" cy="110" r="4"/>
+              <circle cx="480" cy="220" r="2.5"/><circle cx="340" cy="300" r="3"/><circle cx="160" cy="300" r="2"/>
+              <circle cx="520" cy="320" r="3.5"/><circle cx="60" cy="240" r="2.5"/>
+            </g>
+            <path d="M0 340c100-40 200-40 300 0s200 40 300 0v60H0z" fill="#12131a" opacity=".18"/>
+            <text x="28" y="360" fill="#fff" font-size="20" font-weight="700" font-family="sans-serif">星云渐变 · 艺术体操</text>
+          </svg>
+          <span class="cap" style="display:none">星云渐变</span>
+        </div>
+        <div class="g-item g-b reveal">
+          <svg viewBox="0 0 600 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="哑光训练服示意">
+            <defs>
+              <linearGradient id="gb" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#2b2d3a"/>
+                <stop offset="1" stop-color="#5b4bff"/>
+              </linearGradient>
+            </defs>
+            <rect width="600" height="200" fill="url(#gb)"/>
+            <g stroke="#ffffff" stroke-opacity=".25" stroke-width="2">
+              <path d="M0 60c150 30 300 30 600-10"/>
+              <path d="M0 110c150 30 300 30 600-10"/>
+              <path d="M0 160c150 30 300 30 600-10"/>
+            </g>
+            <circle cx="500" cy="60" r="36" fill="#19c1a8" opacity=".5"/>
+            <text x="28" y="176" fill="#fff" font-size="18" font-weight="700" font-family="sans-serif">哑光耐磨 · 训练系列</text>
+          </svg>
+        </div>
+        <div class="g-item g-c reveal">
+          <svg viewBox="0 0 600 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="团体统一配色示意">
+            <rect width="600" height="200" fill="#f0f1ff"/>
+            <circle cx="140" cy="100" r="54" fill="#5b4bff"/>
+            <circle cx="290" cy="100" r="54" fill="#ff5c8a"/>
+            <circle cx="440" cy="100" r="54" fill="#19c1a8"/>
+            <circle cx="520" cy="60" r="22" fill="#f4b63f"/>
+            <text x="28" y="182" fill="#12131a" font-size="18" font-weight="700" font-family="sans-serif">团体配色 · 俱乐部定制</text>
+          </svg>
+        </div>
+        <div class="g-item g-d reveal">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="雾面喷浆细节示意">
+            <defs>
+              <linearGradient id="gd" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ff8f6b"/>
+                <stop offset="1" stop-color="#ff5c8a"/>
+              </linearGradient>
+            </defs>
+            <rect width="400" height="200" fill="url(#gd)"/>
+            <g fill="#fff" opacity=".5">
+              <circle cx="60" cy="50" r="4"/><circle cx="120" cy="90" r="3"/><circle cx="200" cy="40" r="5"/>
+              <circle cx="280" cy="110" r="3"/><circle cx="340" cy="60" r="4"/><circle cx="160" cy="150" r="3"/>
+            </g>
+            <text x="24" y="178" fill="#fff" font-size="17" font-weight="700" font-family="sans-serif">雾面颗粒</text>
+          </svg>
+        </div>
+        <div class="g-item g-e reveal">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="渐变喷浆细节示意">
+            <defs>
+              <linearGradient id="ge" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#19c1a8"/>
+                <stop offset="1" stop-color="#5b4bff"/>
+              </linearGradient>
+            </defs>
+            <rect width="400" height="200" fill="url(#ge)"/>
+            <path d="M0 140c60-20 120-20 180 0s120 20 220-10v70H0z" fill="#12131a" opacity=".2"/>
+            <text x="24" y="178" fill="#fff" font-size="17" font-weight="700" font-family="sans-serif">流光渐变</text>
+          </svg>
+        </div>
+        <div class="g-item g-f reveal">
+          <svg viewBox="0 0 400 200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="高定签名喷浆示意">
+            <rect width="400" height="200" fill="#12131a"/>
+            <g stroke="#f4b63f" stroke-width="3" fill="none" opacity=".9">
+              <path d="M40 140c40-60 70-60 100-10s60 40 100-20 70-40 120 10"/>
+            </g>
+            <g fill="#fff" opacity=".65">
+              <circle cx="70" cy="60" r="3"/><circle cx="200" cy="50" r="2"/><circle cx="320" cy="70" r="3"/>
+            </g>
+            <text x="24" y="178" fill="#fff" font-size="17" font-weight="700" font-family="sans-serif">签名高定</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADVANTAGES -->
+  <section class="section advantages">
+    <div class="container">
+      <div class="center reveal">
+        <span class="eyebrow">选择理由</span>
+        <h2 class="section-title">为什么团队持续选择我们的喷浆工艺</h2>
+        <p class="section-desc">工艺不是装饰，它需要服从动作、服从训练强度、服从团队交付节奏。</p>
+      </div>
+      <div class="adv-grid">
+        <div class="adv reveal">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3 7h7l-5.5 4.3 2 7-6.5-4.4L5.5 20.3l2-7L2 9h7z"/></svg>
+          </div>
+          <div>
+            <h4>配方可延展</h4>
+            <p>喷浆层跟随面料同步伸缩，在高幅度动作中保持完整，减少裂纹与剥落风险。</p>
+          </div>
+        </div>
+        <div class="adv reveal">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3 8 4-16 3 8h4"/></svg>
+          </div>
+          <div>
+            <h4>肤色与配色的协作</h4>
+            <p>依据赛服主色与舞台灯光做配色微调，让喷浆细节在远处也清晰可辨。</p>
+          </div>
+        </div>
+        <div class="adv reveal">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 12l3 3 5-6"/></svg>
+          </div>
+          <div>
+            <h4>批次一致</h4>
+            <p>整队订单按统一色号与参数生产，减少批次色差，便于长期补单与延续设计。</p>
+          </div>
+        </div>
+        <div class="adv reveal">
+          <div class="ico">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </div>
+          <div>
+            <h4>节奏可控</h4>
+            <p>打样与量产节点前置沟通，赛期前预留缓冲，帮助团队安心备赛。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="center reveal">
+        <span class="eyebrow">客户声音</span>
+        <h2 class="section-title">来自教练、领队与运动员的反馈</h2>
+        <p class="section-desc">真实项目中的使用感受，是我们持续打磨工艺的依据。</p>
+      </div>
+      <div class="t-grid">
+        <div class="t-card reveal">
+          <div class="t-stars">★★★★★</div>
+          <blockquote>“第一次把整队赛服交给他们做喷浆，最担心的是色差和动作时的拉扯。打样阶段就把问题解决了，比赛当天效果很稳。”</blockquote>
+          <div class="t-user">
+            <div class="t-ava">林</div>
+            <div><b>林教练</b><span>省队竞技体操</span></div>
+          </div>
+        </div>
+        <div class="t-card reveal">
+          <div class="t-stars">★★★★★</div>
+          <blockquote>“渐变过渡做得很自然，旋转的时候光泽流动感特别好看。队员试穿后都说活动度没有受影响。”</blockquote>
+          <div class="t-user">
+            <div class="t-ava">苏</div>
+            <div><b>苏领队</b><span>艺术体操俱乐部</span></div>
+          </div>
+        </div>
+        <div class="t-card reveal">
+          <div class="t-stars">★★★★★</div>
+          <blockquote>“我的个人赛服做了签名式喷浆，图案和我自己的动作特点有关。穿上它上场，会觉得自己被认真对待。”</blockquote>
+          <div class="t-user">
+            <div class="t-ava">周</div>
+            <div><b>周同学</b><span>大学生健美操队</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq" id="faq">
+    <div class="container">
+      <div class="center reveal">
+        <span class="eyebrow">常见问答</span>
+        <h2 class="section-title">关于体操服喷浆，你可能想知道</h2>
+        <p class="section-desc">如果下面没有覆盖你的问题，欢迎直接联系我们。</p>
+      </div>
+      <div class="faq-wrap">
+        <div class="faq-item reveal">
+          <button class="faq-q">喷浆工艺会影响体操服的活动性吗？<span class="plus"></span></button>
+          <div class="faq-a"><p>不会。我们的喷浆配方以可延展性为前提设计，配合四面弹力面料使用，经过拉伸与回弹测试后可跟随大幅度动作同步变形，重点部位会调整喷涂厚度以避免僵硬感。</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">整队定制最少需要多少件？<span class="plus"></span></button>
+          <div class="faq-a"><p>团体统一配色通常建议 10 件起订，具体视工艺复杂度而定。个人高定支持单件起做，但打样与沟通周期相对更长，建议提前预留时间。</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">喷浆部分如何清洗和保养？<span class="plus"></span></button>
+          <div class="faq-a"><p>建议冷水手洗、避免长时间浸泡与高温烘干，不使用漂白剂。喷浆区域轻柔搓洗即可，翻面晾干能更好地保持表面质感。我们会在交付时附上保养说明卡。</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">从沟通到交付大概需要多久？<span class="plus"></span></button>
+          <div class="faq-a"><p>常规团体订单约 20 至 35 个工作日，视数量、配色复杂度与打样轮次而定。赛期前的集中订单建议至少提前两个月启动沟通，以便安排打样与生产排期。</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">可以先看小样再决定吗？<span class="plus"></span></button>
+          <div class="faq-a"><p>可以。我们提供面料与喷浆的实物小样，包含不同工艺方向与配色方案，确认触感与效果后再进入正式制版与生产，降低决策风险。</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-sec" id="contact">
+    <div class="container">
+      <div class="cta-box reveal">
+        <h2>把你的下一件体操服喷浆，交给工艺讨论桌</h2>
+        <p>留下联系方式，我们会根据你的项目场景准备一份喷浆工艺建议与打样方案。</p>
+        <form class="cta-form" id="ctaForm" novalidate>
+          <input type="text" id="contactInput" placeholder="请输入手机号或邮箱" aria-label="联系方式">
+          <button type="submit">提交需求</button>
+        </form>
+        <p class="cta-note" id="formNote">我们尊重隐私，联系方式仅用于本次项目沟通。</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-foot">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="logo">
+          <span class="logo-mark">体</span>
+          <span>体艺创想<small>SPRAY · COSTUME</small></span>
+        </div>
+        <p>专注体操服喷浆表面工艺与高定服饰定制，为竞技体操、艺术体操与舞蹈团体提供可上场的质感方案。</p>
+        <div class="foot-social">
+          <a href="#" aria-label="微信"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 4C5.4 4 2 6.9 2 10.4c0 2 1.1 3.8 2.9 5L4 18l2.9-1.4c.8.2 1.7.4 2.6.4h.5c-.2-.6-.3-1.2-.3-1.8 0-3.4 3.3-6.1 7.4-6.1h.6C17.1 6.1 13.7 4 9.5 4zm-2.6 3.2c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.4-.9-.9.4-.9.9-.9zm5.2 0c.5 0 .9.4.9.9s-.4.9-.9.9-.9-.4-.9-.9.4-.9.9-.9z"/><path d="M22 15.2c0-2.9-2.8-5.2-6.3-5.2s-6.3 2.3-6.3 5.2 2.8 5.2 6.3 5.2c.7 0 1.4-.1 2.1-.3l2.4 1.2-.7-2c1.6-1 2.5-2.5 2.5-4.1zm-8.3-.9c-.4 0-.8-.3-.8-.8 0-.4.3-.8.8-.8.4 0 .8.3.8.8 0 .4-.4.8-.8.8zm4.2 0c-.4 0-.8-.3-.8-.8 0-.4.3-.8.8-.8.4 0 .8.3.8.8 0 .4-.4.8-.8.8z"/></svg></a>
+          <a href="#" aria-label="微博"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M10.1 19.5c-4 0-7.1-2-7.1-4.5 0-1.6 1-3.2 2.7-4.5C7.5 9.2 9.7 8.4 11 9c.5.2.6.9.3 1.7-.1.3 0 .5.3.4 1.6-.6 3.1-.7 3.9-.2 1 .6 1.1 1.7.6 2.9-.2.5 0 .6.3.8 1.2.5 1.7 1.4 1.3 2.5-.6 2-4 3.4-7.6 3.4zm-.3-6.8c-1.6 0-2.9 1-2.9 2.2s1.3 2.2 2.9 2.2 2.9-1 2.9-2.2-1.3-2.2-2.9-2.2zm3.9-2.8c-1.3 0-2.5.7-2.9 1.7-.1.3.1.5.4.5.5-.1 1-.2 1.6-.2 1.7 0 3.1.8 3.1 2 0 .4-.1.7-.4 1.1-.2.2-.1.6.2.6 1.4.1 2.7-.5 3-1.6.5-1.7-1.4-3.5-4-3.5-.3 0-.7 0-1 .1z"/><path d="M18.8 4.3l-1-1c-.3-.3-.8-.3-1.1 0l-6.4 6.3c-.2.2-.2.5 0 .7l1 1c.2.2.5.2.7 0l6.8-6.3c.3-.2.3-.5 0-.7z"/></svg></a>
+          <a href="#" aria-label="抖音"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 3c.3 1.9 1.5 3.1 3.4 3.3v2.5c-1.3 0-2.5-.4-3.5-1.1v5.6c0 3.2-2.2 5.4-5.3 5.4-2.8 0-5-2-5-4.7 0-2.9 2.4-5 5.4-4.7v2.6c-.4-.1-.8-.2-1.2-.2-1.4 0-2.5 1-2.5 2.3 0 1.4 1.1 2.3 2.4 2.3 1.5 0 2.6-1.1 2.6-2.9V3h3.7z"/></svg></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>工艺服务</h5>
+        <ul>
+          <li><a href="#services">竞技赛服喷浆</a></li>
+          <li><a href="#services">训练服耐磨喷浆</a></li>
+          <li><a href="#services">艺术体操渐变喷浆</a></li>
+          <li><a href="#services">团体统一配色</a></li>
+          <li><a href="#services">个人高定喷浆</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>了解我们</h5>
+        <ul>
+          <li><a href="#about">品牌故事</a></li>
+          <li><a href="#process">定制流程</a></li>
+          <li><a href="#gallery">作品画廊</a></li>
+          <li><a href="#faq">常见问答</a></li>
+          <li><a href="#contact">联系合作</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>联系方式</h5>
+        <ul class="foot-contact">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>工作室 · 城市文创园 B 座 3 层</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>400-800-2024（工作日 9:30–18:30）</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 7l10 6 10-6"/></svg>hello@tiyispray.example</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2024 体艺创想 · 体操服喷浆工艺工作室</span>
+      <span><a href="#">隐私说明</a> &nbsp;·&nbsp; <a href="#">服务条款</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* mobile menu */
+  var nav = document.getElementById('nav');
+  var menuBtn = document.getElementById('menuBtn');
+  if(menuBtn){
+    menuBtn.addEventListener('click', function(){
+      nav.classList.toggle('open');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('open');
+      }
+    });
+  }
+
+  /* FAQ accordion */
+  var items = document.querySelectorAll('.faq-item');
+  items.forEach(function(item){
+    var q = item.querySelector('.faq-q');
+    var a = item.querySelector('.faq-a');
+    q.addEventListener('click', function(){
+      var isOpen = item.classList.contains('open');
+      items.forEach(function(other){
+        other.classList.remove('open');
+        other.querySelector('.faq-a').style.maxHeight = null;
+      });
+      if(!isOpen){
+        item.classList.add('open');
+        a.style.maxHeight = a.scrollHeight + 'px';
+      }
+    });
+  });
+
+  /* reveal on scroll */
+  var reveals = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+    reveals.forEach(function(el){ io.observe(el); });
+  }else{
+    reveals.forEach(function(el){ el.classList.add('in'); });
+  }
+
+  /* CTA form */
+  var form = document.getElementById('ctaForm');
+  var input = document.getElementById('contactInput');
+  var note = document.getElementById('formNote');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var val = (input.value || '').trim();
+      var isPhone = /^1[3-9]\d{9}$/.test(val);
+      var isMail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(val);
+      if(!isPhone && !isMail){
+        note.textContent = '请填写有效的手机号或邮箱，方便我们与你联系。';
+        note.style.color = '#ffe3ec';
+        input.focus();
+        return;
+      }
+      note.textContent = '已收到你的需求，我们会在 1 个工作日内与你联系。';
+      note.style.color = '#eafff7';
+      input.value = '';
+    });
+  }
+})();
+</script>
+</body>
+            </html>
